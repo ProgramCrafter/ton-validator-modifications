@@ -1,3 +1,13 @@
+# TON validator modifications by ProgramCrafter
+
+Unlocked possibilites:
+
+- <hidden until done>
+- <hidden until done>
+- <hidden until done>
+
+# Original description
+
 <div align="center">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://ton.org/download/ton_logo_dark_background.svg">
