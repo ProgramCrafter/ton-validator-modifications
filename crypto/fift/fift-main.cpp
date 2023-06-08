@@ -121,6 +121,7 @@ int main(int argc, char* const argv[]) {
         break;
       case 'V':
         std::cout << "Fift build information: [ Commit: " << GitMetadata::CommitSHA1() << ", Date: " << GitMetadata::CommitDate() << "]\n";
+        std::cout << "This is toncli-local version of Fift\n";
         std::exit(0);
         break;
 

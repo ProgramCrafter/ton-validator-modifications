@@ -224,6 +224,7 @@ class VmState final : public VmStateInterface {
   Ref<Cell> load_library(
       td::ConstBitPtr hash) override;  // may throw a dictionary exception; returns nullptr if library is not found
   void register_cell_load(const CellHash& cell_hash) override;
+  void reset_loaded_cells();
   void register_cell_create() override;
   bool init_cp(int new_cp);
   bool set_cp(int new_cp);
